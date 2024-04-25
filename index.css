@@ -44,7 +44,7 @@ body {
     margin: auto;
 }
 
-h2 {
+h1 {
     display: block;
     text-align: center;
     padding-bottom: 8px;
@@ -73,7 +73,7 @@ display: initial;
         max-width:320px;
         height: 497px;
 border-radius: 20px;
-transform: translate(0, 50%);
+transform: translate(0, 152px);
     }
 
 .card img {
@@ -92,7 +92,7 @@ transform: translate(0, 50%);
     max-width: 288 px;
 }
 
-h2 {
+h1 {
     max-width: 288px;
     text-align: center;
     font-family: "Outfit", sans-serif;
