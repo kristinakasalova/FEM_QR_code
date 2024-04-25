@@ -1,19 +1,23 @@
 @font-face {
-    font-family: Outfit;
-    src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@400,700&display=swap');
-    font-weight: 400,700;
+        font-family: "Outfit";
+        font-weight: 400;
+        src: url(https://fonts.gstatic.com/s/outfit/v11/QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC1O4i0ExAo.woff2) format('woff2');
 }    
+@font-face {
+    font-family: "Outfit";
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/outfit/v11/QGYyz_MVcBeNP4NjuGObqx1XmO1I4deyO4i0ExAo.woff2) format('woff2');
+  }
 
 html {
-    background-color: hsl(220, 15%, 55%);
+    background-color: #D5E1EF;
 }
 
 body {
-    background-color: hsl(220, 15%, 55%);
-    max-width:"360px";
+    background-color: #D5E1EF;
+    max-width:360px;
     margin: auto;
-    justify-content: center;
-    align-items: center;
+
 
 }
 
@@ -22,56 +26,87 @@ body {
     margin: auto;
     display:block;
     background-color: #fff;
-    border-radius: 8px;
-    width: 100%;
-    position: inherit;
+    border-radius: 20px;
+    width: 320px;
+    height: 497px;
+    transform: translate(0, 85px);
+
 }
 
 .card img {
-    max-width: "100%";
+    max-width: 288px;
+    padding:16px;
     object-fit: cover;
+}
+.text-group{
+    height: 129px;
+    max-width: 288px;
+    margin: auto;
 }
 
 h2 {
+    display: block;
     text-align: center;
+    padding-bottom: 8px;
+    margin: auto;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
 }
 
 p {
     text-align: center;
+    font-family: "Outfit", sans-serif;
+    color: #7D889E;
+    padding-top: 5px;
+    max-width: 256px;
+    margin: auto;
+
 }
 
 @media only screen and (min-width: 376px) {
   body {
-    max-width:"360px";
-        margin: auto;
-
-    /* justify-self: auto; */
+display: initial;
 
   }
     .card {
-        max-width:"360px";
-        margin: auto;
-border-radius: 8px;
-background-color: #fff;
-position: relative;
-max-width: 600px;
-top: 50%;
+        max-width:320px;
+        height: 497px;
+border-radius: 20px;
+transform: translate(0, 50%);
     }
 
 .card img {
     display: block;
     align-self: center;
     object-fit: cover;
-    max-width: max-content;
-    padding: 20px;
-    margin: auto;
+    max-width: 288px;
+    padding: 16px;
+/* //    margin: auto; */
+    border-radius: 20px;
 }
 
-    h2 {
-        text-align: center;
+
+.text-group{
+    height: 129 px;
+    max-width: 288 px;
+}
+
+h2 {
+    max-width: 288px;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    padding-bottom: 8px;
     }
 
     p {
         align-self: center;
+        font-family: "Outfit", sans-serif;
+        color: #7D889E;
+        padding-top: 5px;
+        max-width: 256px;
+        margin: auto;
+
     }
 }
